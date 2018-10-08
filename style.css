@@ -1,0 +1,82 @@
+/* General */
+
+body {
+    background-image: url("background.jpg");
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff9ef0;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    color: #dd63ca;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Abel', sans-serif;
+    font-size: 26px;
+}
+
+a:hover {
+    color: #ff9ef0;
+    font-weight: bold;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    border-top: 3px solid #f4f4f4;
+}
+
+nav ul li {
+    display: inline;
+    color: white;
+    font-size: 26px;
+}
+
+/* All Sections */
+header, #about, #story, #gallery, #combos {
+    border: 3px 3px 0px 3px solid #f4f4f4;
+    border-right: 3px solid #f4f4f4;
+    border-bottom: 3px solid #f4f4f4;
+}
+
+/* About Section */
+
+#about {
+    background-color: #9b0083;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.aboutWrapper {
+    display: flex;
+    margin-left: 55px;
+}
+
+.aboutContainer {
+    background-color: black;
+    width: 460px;
+    height: 614px;
+}
+
+#aboutImage {
+    width: 460px;
+    height: 614px;
+}
