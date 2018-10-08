@@ -1,2 +1,2 @@
 # Lili-Tribute-Page
-HTML and CSS website design
+HTML, CSS & JavaScript website design
