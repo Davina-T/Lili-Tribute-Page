@@ -57,7 +57,7 @@ nav ul li {
 }
 
 /* All Sections */
-header, #about, #story, #gallery, #combos {
+header, footer, #about, #story, #gallery, #combos {
     border-left: 3px solid #f4f4f4;
     border-right: 3px solid #f4f4f4;
     border-bottom: 3px solid #f4f4f4;
@@ -169,6 +169,51 @@ header, #about, #story, #gallery, #combos {
     width: 30%;
     margin-left: 20px;
     border: 3px solid #f4f4f4;
+}
+
+/* Combo Section */
+#combos {
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff9ef0;
+}
+
+th {
+    background-color: #9b0083;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin: 0px 5px 0px 5px;
 }
 
 /* Responsive */
