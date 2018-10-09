@@ -73,21 +73,20 @@ header, #about, #story, #gallery, #combos {
     width: 80%;
 }
 
-.aboutWrapper {
-    display: flex;
-    margin-left: 30px;
-}
-
 .aboutContainer {
     background-color: black;
     width: 45%;
     height: 75%;
-    padding: 0px 20px 30px 30px;
+    padding: 20px 0px 48px 0px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #aboutImage {
     width: 45%;
     height: 60%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .aboutBoxWrapper {
@@ -100,11 +99,24 @@ header, #about, #story, #gallery, #combos {
     line-height: 1.6;
 }
 
+.aboutBox1 p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .aboutBox2 {
     text-align: left;
     line-height: 1.6;
     margin-left: 100px;
 }
+
+.aboutBox2 p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /* Story Section */
 
 #story {
@@ -163,6 +175,14 @@ header, #about, #story, #gallery, #combos {
 
 @media screen and (max-width: 750px) {
     .image {
+        width: 80%;
+    }
+
+    #aboutImage {
+        width: 80%;
+    }
+
+    .aboutContainer {
         width: 80%;
     }
 }
