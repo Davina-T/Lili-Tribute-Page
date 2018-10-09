@@ -61,6 +61,7 @@ header, footer, #about, #story, #gallery, #combos {
     border-left: 3px solid #f4f4f4;
     border-right: 3px solid #f4f4f4;
     border-bottom: 3px solid #f4f4f4;
+    min-width: 480px;
 }
 
 /* About Section */
@@ -76,15 +77,18 @@ header, footer, #about, #story, #gallery, #combos {
 .aboutContainer {
     background-color: black;
     width: 45%;
-    height: 75%;
-    padding: 20px 0px 48px 0px;
+    max-width: 483px;
+    min-width: 480px;
+    padding: 20px 0px 52px 0px;
     display: inline-block;
     vertical-align: top;
 }
 
 #aboutImage {
     width: 45%;
-    height: 60%;
+    max-height: 645px;
+    max-width: 483px;
+    min-width: 480px;
     display: inline-block;
     vertical-align: top;
 }
@@ -95,8 +99,10 @@ header, footer, #about, #story, #gallery, #combos {
 }
 
 .aboutBox1 {
+    padding-left: 30px;
     text-align: left;
     line-height: 1.6;
+    min-width: 120px;
 }
 
 .aboutBox1 p {
@@ -109,6 +115,7 @@ header, footer, #about, #story, #gallery, #combos {
     text-align: left;
     line-height: 1.6;
     margin-left: 100px;
+    min-width: 160px;
 }
 
 .aboutBox2 p {
@@ -222,7 +229,9 @@ footer {
     .image {
         width: 80%;
     }
+}
 
+@media screen and (max-width: 1359px) {
     #aboutImage {
         width: 80%;
     }
